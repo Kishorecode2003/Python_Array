@@ -1,0 +1,6 @@
+def getMinMax( a, n):
+    a.sort()
+    x=a[0]
+    y=a[n-1]
+    z=(x,y)
+    return(z)
