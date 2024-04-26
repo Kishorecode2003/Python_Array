@@ -1,0 +1,7 @@
+class Solution:
+    def missingNumber(self,array,n):
+        # code here
+        N_total=n*(n+1)/2
+        arr_total=sum(array)
+        x=N_total-arr_total
+        return(int(x))
