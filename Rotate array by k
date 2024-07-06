@@ -1,0 +1,9 @@
+def rotateArray(arr: list, k: int) -> list:
+    # Write your code here.
+    n = len(arr)
+    if n == 0:
+        return arr
+    k = k % n  # In case k is greater than the length of the array
+    
+    # Perform the rotation using slicing
+    return arr[k:] + arr[:k]
